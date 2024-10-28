@@ -1,0 +1,34 @@
+{
+    "personalDetails": {
+        "name": "Sai Divya Mulukala",
+        "email": "mulukala.saidivya9876@gmail.com",
+        "phoneNumber": "+1 716 907 7112",
+        "linkedIn": ""
+    },
+    "education": [
+        {
+            "collegeName":"University at Buffalo, The State University of New York",
+            "major":"MasterofScience in Department of ComputerScience andEngineering",
+            "startDate":"2024",
+            "endDate":"Present",
+            "grade":""
+        },
+        {
+            "collegeName":"Chaitanya Bharathi Institute of Technology",
+            "major":"Bachelor of Engineering Information Technology",
+            "startDate":"2016",
+            "endDate":"2020",
+            "grade":"7.23/10"
+        }
+    ],
+    "technologies": {
+        "ProgrammingLanguages": ["TypeScript","JavaScript","HTML","CSS","Java","Python","SQL","NodeJS","MongoDB"],
+        "Framework": ["Angular","Angular Material","React","Bootstrap", "ExpressJS","TailwindCSS"],
+        "Automation Testing": ["Cucumber","Tosca"],
+        "Version Control": ["Git"]
+    },
+    "workExperience":[],
+    "hobbies": " ",
+    "projects": []
+
+}
