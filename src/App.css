@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Roboto';
 }
 
 .App-logo {
@@ -36,3 +37,22 @@
     transform: rotate(360deg);
   }
 }
+.header{
+  font-size: 30px;
+}
+.buttonPadding{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mainGrid{
+  width: 60%;
+  /* display: flex; */
+  justify-content: center;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90rem;
+  width: 92%; */
+}
+
