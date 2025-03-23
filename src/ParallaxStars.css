@@ -1,0 +1,44 @@
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: white; /* White background */
+  }
+  
+  .stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background-repeat: repeat;
+  }
+  
+  .layer1 {
+    background-image: radial-gradient(gray 1px, transparent 1px); /* Gray dots */
+    background-size: 20px 20px; /* Adjust dot spacing */
+    animation: move 50s linear infinite;
+  }
+  
+  .layer2 {
+    background-image: radial-gradient(gray 1px, transparent 1px); /* Gray dots */
+    background-size: 15px 15px; /* Smaller dot spacing */
+    animation: move 80s linear infinite;
+  }
+  
+  .layer3 {
+    background-image: radial-gradient(gray 1px, transparent 1px); /* Gray dots */
+    background-size: 10px 10px; /* Densest dot spacing */
+    animation: move 120s linear infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+  

@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: 'Myriad Pro'
+  ;
+  background-color:rgb(198, 211, 221);
+  height: 200%;
 }
 
 .App-logo {
